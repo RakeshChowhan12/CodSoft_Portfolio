@@ -1,0 +1,149 @@
+body{
+  background-image: url(pexels-simonmigaj-746386.jpg);
+  background-position: fixed;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.homepage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-right: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  animation-name: home;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  padding-left: 150px;
+}
+
+button {
+  background-color: rgb(237, 4, 4);
+  height:40px;
+  width:100px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  animation-name: sample;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sample {
+  from {
+    background-color: rgb(237, 4, 4);
+  }
+
+  to {
+    background-color: greenyellow;
+  }
+
+  from {
+    background-color: greenyellow;
+  }
+
+  to {
+    background-color: blueviolet;
+  }
+
+  from {
+    background-color: blueviolet;
+  }
+
+  to {
+    background-color: rgb(226, 95, 43);
+  }
+}
+#new-button{
+  border-radius: none;
+  background-color: red;
+  text-align: center;
+}
+
+img {
+  color: rgb(255, 72, 0);
+}
+
+a {
+  text-decoration: none;
+}
+h1 ,h4{
+justify-content:center;
+padding-left: 100px;
+color: brown;
+
+}
+p{
+  justify-content:center;
+  padding-left: 100px;
+  color: rgb(8, 8, 8);
+  letter-spacing: 1px;
+  font-family:'Times New Roman', Times, serif;
+  }
+span{
+  justify-content:center;
+  padding-left: 100px;
+  width: 100px;
+  height: 50px;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    text-decoration: none;
+  
+  }
+  
+  .skills-list li {
+    background: rgb(172, 114, 234);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+  .skills-list li:hover{
+    background: darkorange;
+  }
+  
+  hr{
+    animation-name: horizontal;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    color:brown;
+  }
+  @keyframes horizontal{
+    from{ color:brown;
+    }
+    to{
+      color:lightseagreen;
+    }
+    from{ color:lightseagreen;
+    }
+    to{
+      color:dodgerblue;
+    }
+  }
+  @media (max-width:930px){
+    .hidden{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+}
+@media (max-width:930px){
+  .hidden{
+      display: none;
+  }
+
+  #menu{
+      display: block;
+  }
+}
